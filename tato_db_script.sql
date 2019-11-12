@@ -180,8 +180,32 @@ insert into BRACKET values (3,2,"Ultimate Singles");
 insert into BRACKET values (4,3,"Ultimate Singles");
 insert into BRACKET values (5,4,"Melee Singles");
 
-insert into PLACINGS values (1,"1. Tosty 2. JD")
-insert into PLACINGS values (2,"1. Tosty 2. JD")
-insert into PLACINGS values (3,"1. Tosty 2. JD")
-insert into PLACINGS values (4,"1. Tosty 2. JD")
-insert into PLACINGS values (5,"1. Tosty 2. JD")
+insert into PLACINGS values (1,"1. Tosty 2. JD");
+insert into PLACINGS values (2,"1. Tosty 2. JD");
+insert into PLACINGS values (3,"1. Tosty 2. JD");
+insert into PLACINGS values (4,"1. Tosty 2. JD");
+insert into PLACINGS values (5,"1. Tosty 2. JD");
+
+insert into TODO_ITEM values (1,"Big Big Problem", "Don't see the big deal. I wake up 4 AM and go to bed around 11 pm. I did it since 1985. Had two jobs and I did it in the Marines.", "06/09/2016", FALSE);
+insert into TODO_ITEM values (2,"OBAMIUM", "It is highly reactive as it is a alkali metal, and it will react in the same way as sodium, potassium etc but more violently.", "12/11/2017", FALSE);
+insert into TODO_ITEM values (3,"Lorem", "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", "07/05/2018", FALSE);
+insert into TODO_ITEM values (4,"Ipsum", "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", "01/23/2018", FALSE);
+insert into TODO_ITEM values (5,"Why do", "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", "03/27/2019", FALSE);
+
+insert into HAS_TASK values(1, 1);
+insert into HAS_TASK values(2, 2);
+insert into HAS_TASK values(3, 3);
+insert into HAS_TASK values(4, 4);
+insert into HAS_TASK values(5, 5);
+
+insert into INVENTORY_ITEM values(1, "Fan Shirt", "A dark colored shirt with our logo.", "www./MJ-SMASH.co/shirt", 10);
+insert into INVENTORY_ITEM values(2, "Custom Controller", "A constum controller design to show your support for X.", "www./MJ-SMASH.co/controller", 100);
+insert into INVENTORY_ITEM values(3, "Wrist Band", "It's stretchy & Elastic, how very fantastic!", "www./MJ-SMASH.co/band", 20);
+insert into INVENTORY_ITEM values(4, "Poster", "A pin up of Green Mario.", "www./MJ-SMASH.co/poster", 5);
+insert into INVENTORY_ITEM values(5, "Mannequin of Michael Jackson", "hee-hee.", "www./MJ-SMASH.co/MJquin", 50);
+
+insert into HAS_MERCH values(1, 1);
+insert into HAS_MERCH values(2, 2);
+insert into HAS_MERCH values(3, 3);
+insert into HAS_MERCH values(4, 4);
+insert into HAS_MERCH values(5, 5);
