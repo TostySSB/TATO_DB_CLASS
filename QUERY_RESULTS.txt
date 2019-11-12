@@ -53,3 +53,31 @@ SELECT * FROM TOURNAMENT;
 3|Montana|15
 4|Montana|19
 5|Montana|20
+
+select * FROM HAS_TASK;
+1|1
+2|2
+3|3
+4|4
+5|5
+
+select * FROM HAS_MERCH;
+1|1
+2|2
+3|3
+4|4
+5|5
+
+select * FROM TODO_ITEM;
+1|Shower|Please.|06/09/2016|0
+2|Clean up event room|After tournament, reorganize the venue and clean up after ourselves so we don't get fined.|12/11/2017|0
+3|book event hall for next tournament|Book event hall at XXX in YYY city for the upcomming tourny.|07/05/2018|0
+4|Determine prize for next tournament|Cold hard cash, or honor, sire?|01/23/2018|0
+5|Schedule next club meeting|We gotta do it at some point guys.|03/27/2019|0
+
+select * FROM INVENTORY_ITEM;
+1|Fan Shirt|A dark colored shirt with our logo.|www./MJ-SMASH.co/shirt|10
+2|Custom Controller|A constum controller design to show your support for X.|www./MJ-SMASH.co/controller|100
+3|Wrist Band|It's stretchy & Elastic, how very fantastic!|www./MJ-SMASH.co/band|20
+4|Poster|A pin up of Green Mario.|www./MJ-SMASH.co/poster|5
+5|Mannequin of Michael Jackson|hee-hee.|www./MJ-SMASH.co/MJquin|50
