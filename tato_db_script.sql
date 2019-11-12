@@ -146,17 +146,17 @@ insert into PLAYER values (3,"DT");
 insert into PLAYER values (4,"JP");
 insert into PLAYER values (5,"DD");
 
-insert into OWNED_BY values (1,1);
-insert into OWNED_BY values (2,2);
-insert into OWNED_BY values (3,3);
-insert into OWNED_BY values (4,4);
-insert into OWNED_BY values (5,5);
+insert into OWNED_BY values (1,1,1);
+insert into OWNED_BY values (2,2,2);
+insert into OWNED_BY values (3,3,3);
+insert into OWNED_BY values (4,4,4);
+insert into OWNED_BY values (5,5,5);
 
-insert into HAS_MEMBER values (1,1);
-insert into HAS_MEMBER values (2,2);
-insert into HAS_MEMBER values (3,3);
-insert into HAS_MEMBER values (4,4);
-insert into HAS_MEMBER values (5,5);
+insert into HAS_MEMBER values (1,1,1);
+insert into HAS_MEMBER values (2,2,2);
+insert into HAS_MEMBER values (3,3,3);
+insert into HAS_MEMBER values (4,4,4);
+insert into HAS_MEMBER values (5,5,5);
 
 insert into TOURNAMENT values (1,"Montana",10);
 insert into TOURNAMENT values (2,"Montana",12);
