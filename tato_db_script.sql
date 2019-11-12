@@ -150,17 +150,17 @@ insert into PLAYER values (3,"DT");
 insert into PLAYER values (4,"JP");
 insert into PLAYER values (5,"DD");
 
-insert into OWNED_BY values (1,1);
-insert into OWNED_BY values (2,2);
-insert into OWNED_BY values (3,3);
-insert into OWNED_BY values (4,4);
-insert into OWNED_BY values (5,5);
+insert into OWNED_BY values (1,1,1);
+insert into OWNED_BY values (2,2,2);
+insert into OWNED_BY values (3,3,3);
+insert into OWNED_BY values (4,4,4);
+insert into OWNED_BY values (5,5,5);
 
-insert into HAS_MEMBER values (1,1);
-insert into HAS_MEMBER values (2,2);
-insert into HAS_MEMBER values (3,3);
-insert into HAS_MEMBER values (4,4);
-insert into HAS_MEMBER values (5,5);
+insert into HAS_MEMBER values (1,1,1);
+insert into HAS_MEMBER values (2,2,2);
+insert into HAS_MEMBER values (3,3,3);
+insert into HAS_MEMBER values (4,4,4);
+insert into HAS_MEMBER values (5,5,5);
 
 insert into TOURNAMENT values (1,"Montana",10);
 insert into TOURNAMENT values (2,"Montana",12);
@@ -180,8 +180,8 @@ insert into BRACKET values (3,2,"Ultimate Singles");
 insert into BRACKET values (4,3,"Ultimate Singles");
 insert into BRACKET values (5,4,"Melee Singles");
 
-insert into PLACINGS values (1,"1. Tosty 2. JD")
-insert into PLACINGS values (2,"1. Tosty 2. JD")
-insert into PLACINGS values (3,"1. Tosty 2. JD")
-insert into PLACINGS values (4,"1. Tosty 2. JD")
-insert into PLACINGS values (5,"1. Tosty 2. JD")
+insert into PLACINGS values (1,"1. Tosty 2. JD");
+insert into PLACINGS values (2,"1. Tosty 2. JD");
+insert into PLACINGS values (3,"1. Tosty 2. JD");
+insert into PLACINGS values (4,"1. Tosty 2. JD");
+insert into PLACINGS values (5,"1. Tosty 2. JD");
