@@ -186,11 +186,11 @@ insert into PLACINGS values (3,"1. Tosty 2. JD");
 insert into PLACINGS values (4,"1. Tosty 2. JD");
 insert into PLACINGS values (5,"1. Tosty 2. JD");
 
-insert into TODO_ITEM values (1,"Big Big Problem", "Don't see the big deal. I wake up 4 AM and go to bed around 11 pm. I did it since 1985. Had two jobs and I did it in the Marines.", "06/09/2016", FALSE);
-insert into TODO_ITEM values (2,"OBAMIUM", "It is highly reactive as it is a alkali metal, and it will react in the same way as sodium, potassium etc but more violently.", "12/11/2017", FALSE);
-insert into TODO_ITEM values (3,"Lorem", "Lorem Ipsum is simply dummy text of the printing and typesetting industry.", "07/05/2018", FALSE);
-insert into TODO_ITEM values (4,"Ipsum", "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", "01/23/2018", FALSE);
-insert into TODO_ITEM values (5,"Why do", "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", "03/27/2019", FALSE);
+insert into TODO_ITEM values (1,"Shower", "Please.", "06/09/2016", FALSE);
+insert into TODO_ITEM values (2,"Clean up event room", "After tournament, reorganize the venue and clean up after ourselves so we don't get fined.", "12/11/2017", FALSE);
+insert into TODO_ITEM values (3,"book event hall for next tournament", "Book event hall at XXX in YYY city for the upcomming tourny.", "07/05/2018", FALSE);
+insert into TODO_ITEM values (4,"Determine prize for next tournament", "Cold hard cash, or honor, sire?", "01/23/2018", FALSE);
+insert into TODO_ITEM values (5,"Schedule next club meeting", "We gotta do it at some point guys.", "03/27/2019", FALSE);
 
 insert into HAS_TASK values(1, 1);
 insert into HAS_TASK values(2, 2);
